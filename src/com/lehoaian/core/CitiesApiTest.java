@@ -1,6 +1,10 @@
 package com.lehoaian.core;
 
+import org.junit.Before;
 import org.junit.Test;
+import android.test.mock.MockContext;
+
+//import org.junit.
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,6 +14,14 @@ import org.junit.Test;
  * To change this template use File | Settings | File Templates.
  */
 public class CitiesApiTest {
+    CitiesApi api;
+
+    @Before
+    public void setUp() throws Exception {
+
+
+    }
+
     @Test
     public void testGetResponse() throws Exception {
 
